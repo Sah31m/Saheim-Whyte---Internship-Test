@@ -1,0 +1,107 @@
+/* Octopus Energy brand colours used in the design */
+:root {
+  --hemocyanin: #180048;
+  --ice: #f0ffff;
+  --plum: #600e6b;
+  --purpleHaze: #a49fc8;
+  --siphon: #100030;
+  --sohoLights: #f050f8;
+}
+html,body {
+  padding: 0;
+  margin: 0;
+  font-family: Gotham, helvetica, arial, sans-serif;
+  color: var(--ice);
+}
+body {
+  background: var(--siphon);
+}
+td, th {
+  padding: .5vh; /* Add padding to table cells */
+  color: var(--purpleHaze);
+}
+Button:hover{
+  background-color: var(--plum);
+  box-shadow: 0px 15px 25px -5px rgba(darken(dodgerblue, 40%));
+}
+Button:active{
+    box-shadow: 0px 4px 8px;
+    transform: scale(.98);
+}
+
+.Home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  height: 100vh;
+  margin: 0 auto;
+}
+.Topbar {
+  width: 100%;
+  height: 5vh;
+  
+}
+.Logo{
+  height: 100%;
+}
+.Basket{
+  height: 75%;
+  float: right;
+}
+.Product{
+  width: 15%;
+  border-radius: 15px;
+}
+.Spec{
+  width: 100%;
+}
+.Order{
+  width: 100%;
+}
+.Description{
+  width: 100%;
+  background-color: var(--hemocyanin);
+}
+.Specifications{
+  width: 100%;
+}
+.Footer{
+  width: 100%;
+  color: var(--purpleHaze);
+  background-color: var(--hemocyanin);
+  position: absolute;
+  bottom: 0;
+}
+.td{
+  text-align: center;
+}
+.OrderContainer{
+  width: 75vh;
+  display: flex;
+  justify-content: space-between; /* Items on the ends */
+  align-items: center; /* Center vertically */
+  
+}
+.QuantityDisplay {
+  display: flex;
+  align-items: center;
+}
+.QuantityDisplay Button{
+  background-color: var(--sohoLights);
+  border: 0;
+  border-radius: 5px;
+  width: 25px;
+  height: 25px;
+}
+.QuantityDisplay h2 {
+  margin: 0 10px;
+}
+.Cart{
+  height: 100%;
+  width: 75vh;
+  aspect-ratio: 1/1;
+  border: 0;
+  border-radius: 5px;
+  background-color: var(--sohoLights);
+}
