@@ -1,4 +1,5 @@
 **PRE COMPLETION**
+
 After reading the README i understand there are several goals my client wants me to accomplish.
 
  - [ ] Interact with the user through buttons
